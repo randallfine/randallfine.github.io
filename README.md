@@ -1,1 +1,3 @@
-# randall.github.io
+# portfolio
+
+The HTML and CSS for my portfolio site www.randallfine.github.io
