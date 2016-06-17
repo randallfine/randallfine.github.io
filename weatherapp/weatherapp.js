@@ -1,5 +1,5 @@
 $(document).ready(function getLocation() {
-    $.get('http://ip-api.com/json', function(loc) {
+    $.get('http://ip-api.com/json/', function(loc) {
 
         
       $('#city').text(loc.city + ', ' + loc.region + ', ' + loc.countryCode);
