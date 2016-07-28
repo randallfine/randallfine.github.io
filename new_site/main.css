@@ -25,6 +25,15 @@ img {
 
 }
 
+.welcome, .show, .start {
+  border: 1px solid red;
+  margin: auto;
+  text-align: center;
+  display:none;
+}
+
+
+
 h1 {
   color: blue;
 }
