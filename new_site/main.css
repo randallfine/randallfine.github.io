@@ -1,55 +1,63 @@
-.splash-container{
-  background: -webkit-linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .9)), 
-   url('https://thumbs.dreamstime.com/z/head-silhouette-binary-code-22480729.jpg');
-  background: -o-linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .9)), 
-   url('https://thumbs.dreamstime.com/z/head-silhouette-binary-code-22480729.jpg');
-  background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .9)), 
-   url('assets/head-silhouette-binary-code-22480729.jpg');
-  background-size: contain;;
-  background-position: center right;
-  background-repeat: no-repeat;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  position: fixed !important;
-  z-index:500;
-  padding: 0;
+body {
+    font-family: Lato;
+}
+
+.splash-container {
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .9)), url('https://thumbs.dreamstime.com/z/head-silhouette-binary-code-22480729.jpg');
+    background: -o-linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .9)), url('https://thumbs.dreamstime.com/z/head-silhouette-binary-code-22480729.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .9)), url('assets/head-silhouette-binary-code-22480729.jpg');
+    background-size: contain;
+    ;
+    background-position: center right;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed !important;
+    z-index: 500;
+    padding: 0;
 }
 
 .splash {
-  margin: auto;
-  width: 50%;
-  height: 50%;
-  margin: 20px auto;
-  text-align: center;
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    margin: 20px auto;
+    text-align: center;
 }
 
 .me {
-  border-radius: 50%;
-  width: 100px;
-  margin: auto;
+    border-radius: 50%;
+    width: 100px;
+    margin: auto;
 }
 
-.welcome, .my, .here {
-  margin: auto;
-  text-align: center;
-  display: none;
+.welcome,
+.my,
+.here {
+    margin: auto;
+    text-align: center;
+    display: none;
 }
 
 h1 {
-  color: blue;
-  font-size: 45px;
+    color: blue;
+    font-size: 45px;
 }
 
 .arrow {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .info {
-  width: 100%;    
-  z-index:600;
-  position:relative;
-  background-color: white;
-  visibility: hidden;
+    width: 100%;
+    position: relative;
+    background-color: white;
+    z-index: 600;
+}
+
+.buttons {
+    margin-top: 10px;
+    display: none;
 }
