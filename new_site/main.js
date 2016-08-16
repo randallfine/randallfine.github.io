@@ -6,7 +6,3 @@ $(document).ready(function() {
         });
     });
 });
-$(".arrow").click(function() {
-    $(".info")
-        .transition('slide up');
-});
