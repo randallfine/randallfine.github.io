@@ -1,26 +1,47 @@
-.splash-container {
-    background: -webkit-linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .9)), url('https://thumbs.dreamstime.com/z/head-silhouette-binary-code-22480729.jpg');
-    background: -o-linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .9)), url('https://thumbs.dreamstime.com/z/head-silhouette-binary-code-22480729.jpg');
-    background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .9)), url('assets/head-silhouette-binary-code-22480729.jpg');
-    background-size: contain;
-    ;
-    background-position: center right;
-    background-repeat: no-repeat;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    position: fixed !important;
-    z-index: 500;
-    padding: 0;
+/*html,body {
+    padding:0;
+    margin:0;
+    background:black;
+}*/
+
+#wrapper {
+    position:absolute;
+    height:100%;
+    width:100%;
+
 }
 
-.splash {
-    margin: auto;
-    width: 50%;
-    height: 50%;
-    margin: 20px auto;
-    text-align: center;
+.panels {
+    position:relative;
+    height:100%;
+    min-height:100%;
+    width:100%;
+    z-index:1000;
+}
+
+#a{
+    background: -webkit-linear-gradient(rgba(20, 20, 20, 1), rgba(20, 20, 20, .9)), url('assets/head-silhouette-binary-code-22480729.jpg');
+    background: -o-linear-gradient(rgba(20, 20, 20, 1), rgba(20, 20, 20, .9)), url('assets/head-silhouette-binary-code-22480729.jpg');
+    background: linear-gradient(rgba(20, 20, 20, 1), rgba(20, 20, 20, .9)), url('assets/head-silhouette-binary-code-22480729.jpg');
+    background-size: contain;
+    background-position: center right;
+    background-repeat: no-repeat;
+    position:fixed;
+    top:0;
+    z-index:-99;
+}
+
+#b{
+   margin-top:200%;
+   background:white;
+}
+
+#c{
+   background:pink;
+}
+
+#d{
+   background:green;
 }
 
 .me {
@@ -44,26 +65,19 @@ h1 {
 
 .arrow {
     text-decoration: none;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
 }
 
-.info {
-    position: relative;
-    height: 100%;
-    min-height: 100%;
-    width: 100%;
-    z-index: 1000;
-}
-
-.about {
-    background: #eee;
-    position: fixed;
-    color: red;
-    top: 0;
-    left: 0;
-    z-index: -99;
+.arrow-button {
+  font-size: 100px;
 }
 
 .buttons {
-    margin-top: 10px;
-    display: none;
+   margin: 10px auto;
+   text-align: center;
+   display: none;
 }

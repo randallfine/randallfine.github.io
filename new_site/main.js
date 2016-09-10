@@ -6,3 +6,8 @@ $(document).ready(function() {
         });
     });
 });
+$(".arrow").click(function(){
+  $('html, body').animate({
+      scrollTop: $("#b").offset().top
+  }, 1000);
+})
