@@ -1,0 +1,149 @@
+
+body {
+  background-color: #9EB3C2;
+  font-family: 'Lato', sans-serif;
+  padding-top: 7%;
+  text-align: center;
+}
+
+.navbar {
+  border-radius: 0;
+  font-size: 150%;
+}
+
+.btn {
+  box-shadow: 0 8px 16px -6px black;
+}
+
+.btn:hover {
+  background-color: steelblue;
+}
+
+hr {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-top: 1px solid #f8f8f8;
+  width: 40%;
+}
+
+h1 {
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.about .jumbotron {
+  background-color: #CCDBDC;
+  font-size: 2.5em;
+  text-align: left;
+  box-shadow: 0 8px 16px -6px black;
+  position: relative;
+  z-index: 2;
+
+}
+
+.projects {
+  background: rgba(100, 149, 237, 0.5);
+  padding-bottom: 100px;
+  text-align: center;
+  box-shadow: 0 8px 16px -6px black;
+  position: relative;
+  z-index: 2;
+}
+
+.otherProjects .jumbotron{
+  background-color: #CCDBDC;
+  box-shadow: 0 8px 16px -6px black;
+  position: relative;
+  z-index: 2;
+}
+
+.jumbotron {
+  background: rgba(100, 149, 237, 0.5);
+  box-shadow: 0 8px 16px -6px black;
+  position: relative;
+  z-index: 2;
+}
+
+.row {
+  margin: auto;
+}
+
+.navbar-inverse {
+  background: #2c3e50;
+}
+
+.contact {
+  color: white;
+  margin-top: 5px;
+  max-height: max-content;
+
+}
+
+.profile {
+  border-radius: 50%;
+  width: 200px;
+}
+
+footer {
+  background: #2c3e50;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+}
+
+.glyphs {
+  margin-right: 8%;
+
+}
+
+.glyphs .fa:nth-child(2n-1) {
+  color: white;
+  font-size: 2em;
+  margin-right: 1%;
+}
+
+.glyphs .fa:nth-child(2n) {
+  color: white;
+  font-size: 1em;
+  margin-right: 1%;
+}
+
+span .fa {
+
+  font-size: 1em;
+  font-weight: bold;
+   margin-top: 1%
+}
+
+.sig {
+  color: white;
+  float:left;
+}
+
+.name {
+  font-family: cursive;
+}
+
+.logos {
+  text-align: center;
+}
+
+.logos > * {
+  margin-left: 10px;
+}
+
+.css3 {
+  width: 45px;
+}
+
+.js {
+  width: 50px;
+  margin-top: 5px;
+}
+
+.node {
+  width: 50px;
+}
+
+.meteor {
+  width: 80px;
+  margin-right: 10px;
+}
