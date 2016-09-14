@@ -44,7 +44,9 @@ h1 {
   background: rgba(100, 149, 237, 0.5);
   padding-bottom: 100px;
   text-align: center;
-
+  box-shadow: 0 8px 16px -6px black;
+  position: relative;
+  z-index: 2;
 }
 
 .otherProjects .jumbotron{
@@ -118,4 +120,30 @@ span .fa {
 
 .name {
   font-family: cursive;
+}
+
+.logos {
+  text-align: center;
+}
+
+.logos > * {
+  margin-left: 10px;
+}
+
+.css3 {
+  width: 45px;
+}
+
+.js {
+  width: 50px;
+  margin-top: 5px;
+}
+
+.node {
+  width: 50px;
+}
+
+.meteor {
+  width: 80px;
+  margin-right: 10px;
 }
