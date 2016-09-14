@@ -1,14 +1,18 @@
-/*html,body {
-    padding:0;
-    margin:0;
-    background:black;
-}*/
+body{
+    overflow-x: hidden;
+}
 
 #wrapper {
     position:absolute;
+    padding: 0;
     height:100%;
     width:100%;
-
+    background: -webkit-linear-gradient(rgba(20, 20, 20, 1), rgba(20, 20, 20, .9)), url('assets/head-silhouette-binary-code-22480729.jpg');
+    background: -o-linear-gradient(rgba(20, 20, 20, 1), rgba(20, 20, 20, .9)), url('assets/head-silhouette-binary-code-22480729.jpg');
+    background: linear-gradient(rgba(20, 20, 20, 1), rgba(20, 20, 20, .9)), url('assets/head-silhouette-binary-code-22480729.jpg');
+    background-size: contain;
+    background-position: center right;
+    background-repeat: no-repeat;
 }
 
 .panels {
@@ -20,29 +24,30 @@
 }
 
 #a{
-    background: -webkit-linear-gradient(rgba(20, 20, 20, 1), rgba(20, 20, 20, .9)), url('assets/head-silhouette-binary-code-22480729.jpg');
-    background: -o-linear-gradient(rgba(20, 20, 20, 1), rgba(20, 20, 20, .9)), url('assets/head-silhouette-binary-code-22480729.jpg');
-    background: linear-gradient(rgba(20, 20, 20, 1), rgba(20, 20, 20, .9)), url('assets/head-silhouette-binary-code-22480729.jpg');
-    background-size: contain;
-    background-position: center right;
-    background-repeat: no-repeat;
     position:fixed;
     top:0;
     z-index:-99;
+    background: url("https://hd.unsplash.com/photo-1457305237443-44c3d5a30b89");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #b{
    margin-top:100%;
-   background:white;
+   background: url("https://hd.unsplash.com/photo-1467663802424-21ff675548c4");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
    text-align: center;
 }
 
 #c{
-   background:pink;
+
 }
 
 #d{
-   background:green;
+
 }
 
 .me {
@@ -59,7 +64,7 @@
     display: none;
 }
 
-h1 {
+.blue {
     color: blue;
     font-size: 45px;
 }
@@ -81,4 +86,19 @@ h1 {
    margin: 10px auto;
    text-align: center;
    display: none;
+}
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+}
+
+.thumbnail {
+  width: 400px;
+  margin: auto;
 }
