@@ -1,12 +1,13 @@
-body{
+body {
+    font-family: "Lato, Helvetica Neue", Helvetica, ArialArial, Helvetica, sans-serif;
     overflow-x: hidden;
 }
 
 .main {
-    position:absolute;
+    position: absolute;
     padding: 0;
-    height:100%;
-    width:100%;
+    height: 100%;
+    width: 100%;
     background: -webkit-linear-gradient(rgba(20, 20, 20, 1), rgba(20, 20, 20, .9)), url('assets/head-silhouette-binary-code-22480729.jpg');
     background: -o-linear-gradient(rgba(20, 20, 20, 1), rgba(20, 20, 20, .9)), url('assets/head-silhouette-binary-code-22480729.jpg');
     background: linear-gradient(rgba(20, 20, 20, 1), rgba(20, 20, 20, .9)), url('assets/head-silhouette-binary-code-22480729.jpg');
@@ -16,18 +17,19 @@ body{
 }
 
 .panels {
-    padding-top: 10px;
-    position:relative;
-    height:100%;
-    min-height:100%;
-    width:100%;
-    z-index:1000;
+    padding: 20px;
+    position: relative;
+    height: 100%;
+    min-height: 100%;
+    width: 100%;
+    z-index: 1000;
+    margin-top: 10px;
 }
 
 .splash {
-    position:fixed;
-    top:0;
-    z-index:-99;
+    position: fixed;
+    top: 0;
+    z-index: -99;
     background: url("https://hd.unsplash.com/photo-1457305237443-44c3d5a30b89");
     background-size: cover;
     background-position: center;
@@ -35,36 +37,37 @@ body{
 }
 
 .projects {
-   margin-top:100%;
-   background: url("https://hd.unsplash.com/photo-1467663802424-21ff675548c4");
-   background-size: cover;
-   background-position: center;
-   background-repeat: no-repeat;
-   text-align: center;
+    margin-top: 100%;
+    padding: 20px;
+    background: url("https://hd.unsplash.com/photo-1467663802424-21ff675548c4");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
 }
 
 .projects2 {
-background: url("https://hd.unsplash.com/photo-1416339684178-3a239570f315");
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
-text-align: center;
+    padding: 20px;
+    background: url("https://hd.unsplash.com/photo-1416339684178-3a239570f315");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
 }
 
 .about {
-   height:100vh;
+    color: white;
+    text-align: center
 }
 
 .me {
-    border-radius: 50%;
     width: 100px;
-    margin: auto;
 }
 
 .welcome,
 .my,
 .here,
-.rotate  {
+.rotate {
     margin: auto;
     text-align: center;
     display: none;
@@ -75,11 +78,12 @@ text-align: center;
 }
 
 .white {
-  color: white;
+    color: white;
 }
 
-h1, .blue {
-  font-size: 45px;
+h1,
+.blue {
+    font-size: 45px;
 }
 
 .rotate {
@@ -91,95 +95,91 @@ h1, .blue {
 }
 
 .arrow-button {
-  font-size: 100px;
+    font-size: 100px;
 }
 
 .top {
-  display: none;
+    display: none;
 }
 
 .buttons {
-   margin: 20px auto;
-   text-align: center;
+    margin: 20px auto;
+    text-align: center;
 }
 
 .btn-circle {
-  width: 30px;
-  height: 30px;
-  text-align: center;
-  padding: 6px 0;
-  font-size: 12px;
-  line-height: 1.428571429;
-  border-radius: 15px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 15px;
 }
 
 .text {
-  background: lightgray;
-  width: 600px;
+    background: lightgray;
+    width: 25%;
 }
 
 .thumbnail {
-  width: 400px;
-  margin: auto;
+    width: 350px;
+    margin: auto;
 }
 
 .logos {
-  text-align: center;
+    text-align: center;
 }
 
 .logos > * {
-  margin-left: 10px;
+    margin-left: 10px;
 }
 
 .css3 {
-  width: 45px;
+    width: 40px;
 }
 
 .js {
-  width: 50px;
-  margin-top: 5px;
+    width: 45px;
+    margin-top: 5px;
 }
 
 .node {
-  width: 50px;
+    width: 45px;
 }
 
 .meteor {
-  width: 80px;
-  margin-right: 10px;
+    width: 70px;
+    margin-right: 10px;
 }
 
 footer {
-  text-align: center;
-  background: #2c3e50;
+    text-align: center;
+    background: #2c3e50;
 }
 
-
-
 .glyphs .fa:nth-child(2n-1) {
-  color: white;
-  font-size: 2em;
-  margin-right: 1%;
+    color: white;
+    font-size: 2em;
+    margin-right: 1%;
 }
 
 .glyphs .fa:nth-child(2n) {
-  color: white;
-  font-size: 1em;
-  margin-right: 1%;
+    color: white;
+    font-size: 1em;
+    margin-right: 1%;
 }
 
 span .fa {
-
-  font-size: 1em;
-  font-weight: bold;
-
+    font-size: 1em;
+    font-weight: bold;
 }
 
 .sig {
-  color: white;
-  float:left;
+    color: white;
+    float: left;
 }
 
 .name {
-  font-family: cursive;
+    font-family: cursive;
 }
