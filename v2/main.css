@@ -38,6 +38,7 @@ body {
 }
 
 .projects {
+    color: ghostwhite;
     margin-top: 100%;
     padding: 20px;
     background: url("https://hd.unsplash.com/photo-1467663802424-21ff675548c4");
