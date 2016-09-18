@@ -74,7 +74,7 @@ body {
 }
 
 .blue {
-    color: blue;
+    color: cornflowerblue;
 }
 
 .white {
@@ -118,7 +118,7 @@ h1,
 }
 
 .text {
-    background: lightgray;
+    background: ghostwhite;
 }
 
 .thumbnail {
@@ -130,7 +130,7 @@ h1,
     text-align: center;
 }
 
-.logos > * {
+.logos>* {
     margin-left: 10px;
 }
 
