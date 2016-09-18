@@ -7,6 +7,7 @@ body {
     position: absolute;
     padding: 0;
     height: 100%;
+    min-height: 100%;
     width: 100%;
     background: -webkit-linear-gradient(rgba(20, 20, 20, 1), rgba(20, 20, 20, .9)), url('assets/head-silhouette-binary-code-22480729.jpg');
     background: -o-linear-gradient(rgba(20, 20, 20, 1), rgba(20, 20, 20, .9)), url('assets/head-silhouette-binary-code-22480729.jpg');
@@ -56,7 +57,6 @@ body {
 }
 
 .about {
-    color: white;
     text-align: center
 }
 
@@ -119,11 +119,10 @@ h1,
 
 .text {
     background: lightgray;
-    width: 25%;
 }
 
 .thumbnail {
-    width: 350px;
+    width: 325px;
     margin: auto;
 }
 
