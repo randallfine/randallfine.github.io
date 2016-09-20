@@ -122,6 +122,13 @@ h1,
     background: ghostwhite;
 }
 
+.link:hover,
+ :visited,
+ :active,
+ :link {
+    color: inherit;
+}
+
 .logos {
     text-align: center;
 }
