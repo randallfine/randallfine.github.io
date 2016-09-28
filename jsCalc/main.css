@@ -40,18 +40,21 @@ li:nth-child(2n+2) {
 
 .screen {
     margin: auto;
-    width: 75%;
+    width: 78%;
     height: 50px;
-    padding: 0;
 }
 
 .view {
-    color: violet;
-    font-size: 25px;
+    padding-top: 5px;
+    color: cornflowerblue;
+    font-size: 30px;
     width: 100%;
     height: 50px;
     text-align: right;
-    background-color: blue;
+    background-color: darkblue;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 #face {
@@ -64,14 +67,17 @@ li:nth-child(2n+2) {
 
 button {
     margin-right: 2%;
+    width: 46px;
+    height: 46px;
+    border-radius: 15%;
+    outline: none;
+    background: black;
+    color: white;
+    font-size: large;
 }
 
-button,
-button:hover,
-button:active,
-button:visited {
-    text-decoration: none !important;
-    outline: none !important;
+.danger {
+    background: red;
 }
 
 a,
@@ -79,22 +85,16 @@ a:hover,
 a:active,
 a:visited {
     color: #922031;
-    text-decoration: none !important;
-    outline: none !important;
+    text-decoration: none;
+    outline: none;
 }
 
 .btn-danger {
     height: 45px;
 }
 
-.btn-lg {
-    color: white;
-    background-color: black !important;
-}
-
 .zero {
-    width: 100%;
-    margin-right: 15%;
+    width: 100px;
 }
 
 .static-footer {
