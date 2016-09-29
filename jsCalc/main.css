@@ -98,7 +98,9 @@ a:visited {
 }
 
 .zero {
-    width: 100px;
+    width: 145px;
+    margin-right: 6px;
+    margin-left: 18px;
 }
 
 .static-footer {
