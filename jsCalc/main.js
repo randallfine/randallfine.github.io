@@ -23,12 +23,14 @@ $(document).ready(function() {
     //Main calc function
     $(".calc").click(function() { 
         var val = $(this).val();
-        var numArr = [];
-        if ($(".view").text() === "0") {
+        var view = $(".view").html();
+        var split = view.split("");
+        if (view === "0" || split[0] == "=") {
             $(".view").text(val);
         } else {
-            $(".view").text($(".view").text() + val);
+            $(".view").text(view + val);
         }
+        decCheck();
     });
 
     //using operators
@@ -38,6 +40,9 @@ $(document).ready(function() {
         var split = $(".view").html().split("");
         var sliced = split.slice(-1);
         $(".view").text($(".view").text() + val);
+        if (split[0] == "=") {
+            $(".view").html(split.slice(2, split.length).join("") + val)
+        }
         if (sliced == "+" || sliced == "-" || sliced == "/" || sliced == "*") {
             var temp = view.split("");
             $(".view").html(temp.slice(0, view.length - 1).join(""));
@@ -46,23 +51,31 @@ $(document).ready(function() {
         decCheck();
     });
 
-    //no repeating decimals
+    //adding decimals
     $(".dec").click(function() {
         var val = $(this).val();
         var view = $(".view").html();
         var split = $(".view").html().split("");
         var sliced = split.slice(-1);
-        $(".view").text($(".view").text() + val);
+        if (split[0] == "=") {
+            $(".view").html("0" + val);
+        } else if (sliced == "+" || sliced == "-" || sliced == "/" || sliced == "*") {
+            $(".view").text($(".view").text() + "0" + val);
+        } else {
+            $(".view").text($(".view").text() + val);
+        }
+
         decCheck();
     });
 
     //equals function
     $(".equals").click(function() {
         var total = eval($(".view").text());
-        $(".view").html(total);
+        $(".view").html("= " + total);
     });
 });
 
+//preventing duplacate or inapropriate decimals
 var decCheck = function() {
     var val = ".";
     var view = $(".view").html();

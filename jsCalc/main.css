@@ -76,6 +76,10 @@ button {
     font-size: large;
 }
 
+button:active {
+    background: white;
+}
+
 .danger {
     background: red;
 }
