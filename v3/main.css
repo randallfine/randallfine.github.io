@@ -4,47 +4,54 @@ body {
     height: 100%;
     margin: 0px;
     padding: 0px;
-    font-family: "Lato, Helvetica Neue", Helvetica, ArialArial, Helvetica, sans-serif;
-    overflow-x: hidden;
+    font-family: "Lato", sans-serif;
 }
 
 .ui.container {
+    /*height: 100%;*/
+    min-height: 100%;
     width: 100% !important;
 }
 
 .main {
+  width: 100% !important;
+  height: 100%;
+    top:0;
     padding: 20px;
-    height: 100%;
-    min-height: 100%;
     position: absolute;
     background: -webkit-linear-gradient(rgba(20, 20, 20, 1), rgba(20, 20, 20, .9)), url('assets/blurycode.jpg');
     background: -o-linear-gradient(rgba(20, 20, 20, 1), rgba(20, 20, 20, .9)), url('assets/blurycode.jpg');
     background: linear-gradient(rgba(20, 20, 20, 1), rgba(20, 20, 20, .9)), url('assets/blurycode.jpg');
     background-size: cover;
-    /*background-position: center;*/
     background-repeat: no-repeat;
 }
 
 
 .splash {
-    height: 100%;
-    min-height: 100%;
     position: fixed;
     top: 0;
     left: 0;
-    z-index: -1;
+    z-index: -100;
     background: url("assets/screens.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
+.panels {
+    padding: 20px;
+    position: relative;
+    height: 100%;
+    min-height: 100%;
+    width: 100%;
+    z-index: 1000;
+    margin-top: 10px;
+}
+
 .projects {
     /*color: ghostwhite;*/
-    right: 0;
-    left: 0;
     margin-top: 100%;
-    /*padding: 20px;*/
+    padding: 20px;
     background: url("https://hd.unsplash.com/photo-1467663802424-21ff675548c4");
     background-size: cover;
     background-position: center;
@@ -102,28 +109,13 @@ h1,
 }
 
 
-/*.rotate {
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
-}*/
+.top {
+  margin-top: 10px;
 
-
-/*.arrow-button {
-    font-size: 100px;
-}*/
-
-
-/*.top {
-    display: none;
-
-} */
+}
 
 #down {
-    margin-top: 30px;
-    /*width: 500px;*/
+    margin-top: 80px;
     font-size: 30px;
 }
 
@@ -143,7 +135,7 @@ h1,
     border-radius: 15px;
 }*/
 
-.text {
+.raised {
     background: ghostwhite;
 }
 
@@ -189,13 +181,13 @@ footer {
     background: #2c3e50;
 }
 
-.glyphs .fa:nth-child(2n-1) {
+.glyphs.icon:nth-child(2n-1) {
     color: white;
     font-size: 2em;
     margin-right: 1%;
 }
 
-.glyphs .fa:nth-child(2n) {
+.glyphs.icon:nth-child(2n) {
     color: white;
     font-size: 1em;
     margin-right: 1%;
@@ -211,6 +203,16 @@ span .fa {
     float: left;
 }
 
-.name {
+span.name {
     font-family: cursive;
+}
+
+.ui.circular.freecodecamp.icon.button {
+  background: #006400;
+  color:white;
+}
+
+.ui.circular.github.icon.button, .ui.circular.codepen.icon.button {
+  background: black;
+  color:white;
 }
