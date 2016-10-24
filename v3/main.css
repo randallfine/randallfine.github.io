@@ -1,5 +1,6 @@
 html,
 body {
+    background-color: black;
     width: 100%;
     height: 100%;
     margin: 0px;
@@ -8,15 +9,15 @@ body {
 }
 
 .ui.container {
-    /*height: 100%;*/
     min-height: 100%;
     width: 100% !important;
 }
 
 .main {
-  width: 100% !important;
-  height: 100%;
-    top:0;
+    width: 100% !important;
+    height: 100%;
+    min-height: 100%;
+    top: 0;
     padding: 20px;
     position: absolute;
     background: -webkit-linear-gradient(rgba(20, 20, 20, 1), rgba(20, 20, 20, .9)), url('assets/blurycode.jpg');
@@ -26,14 +27,15 @@ body {
     background-repeat: no-repeat;
 }
 
-
 .splash {
     position: fixed;
     top: 0;
     left: 0;
+    height: 100%;
     z-index: -100;
     background: url("assets/screens.jpg");
-    background-size: cover;
+    background-color: black;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -41,14 +43,12 @@ body {
 .panels {
     padding: 20px;
     position: relative;
-    height: 100%;
     min-height: 100%;
     width: 100%;
     z-index: 1000;
 }
 
 .projects {
-    /*color: ghostwhite;*/
     margin-top: 100%;
     padding: 20px;
     background: url("https://hd.unsplash.com/photo-1467663802424-21ff675548c4");
@@ -76,8 +76,6 @@ body {
     text-align: center;
 }
 
-
-
 .about {
     text-align: center
 }
@@ -91,7 +89,7 @@ body {
 .here {
     margin: auto;
     text-align: center;
-    /*display: none;*/
+    font-size: 45px;
 }
 
 .blue {
@@ -102,15 +100,8 @@ body {
     color: white;
 }
 
-h1,
-.blue {
-    font-size: 45px;
-}
-
-
 .top {
-  margin-top: 10px;
-
+    margin-top: 10px;
 }
 
 #down {
@@ -122,17 +113,6 @@ h1,
     margin: 20px auto;
     text-align: center;
 }
-
-
-/*.btn-circle {
-    width: 30px;
-    height: 30px;
-    text-align: center;
-    padding: 6px 0;
-    font-size: 12px;
-    line-height: 1.428571429;
-    border-radius: 15px;
-}*/
 
 .raised {
     background: ghostwhite;
@@ -207,11 +187,12 @@ span.name {
 }
 
 .ui.circular.freecodecamp.icon.button {
-  background: #006400;
-  color:white;
+    background: #006400;
+    color: white;
 }
 
-.ui.circular.github.icon.button, .ui.circular.codepen.icon.button {
-  background: black;
-  color:white;
+.ui.circular.github.icon.button,
+.ui.circular.codepen.icon.button {
+    background: black;
+    color: white;
 }
