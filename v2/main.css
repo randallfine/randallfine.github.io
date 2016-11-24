@@ -38,19 +38,20 @@ body {
 }
 
 .projects {
-    color: ghostwhite;
+    /*color: ghostwhite;*/
     margin-top: 100%;
     padding: 20px;
-    background: url("assets/qbert.jpg");
+    background-color: whitel;
+    /*background: url("assets/qbert.jpg");
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
     text-align: center;
 }
 
 .projects2 {
     padding: 20px;
-    background: url("assets/worktable.jpg");
+    /*background: url("assets/worktable.jpg");*/
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -59,7 +60,7 @@ body {
 
 .projects3 {
     padding: 20px;
-    background: url("assets/worktable2.jpg");
+    /*background: url("assets/worktable2.jpg");*/
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
