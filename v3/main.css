@@ -1,6 +1,6 @@
 html,
 body {
-    background-color: black;
+    /*background-color: black;*/
     width: 100%;
     height: 100%;
     margin: 0px;
@@ -22,7 +22,7 @@ body {
     position: absolute;
     background: -webkit-linear-gradient(rgba(20, 20, 20, 1), rgba(20, 20, 20, .9)), url('assets/blurycode.jpg');
     background: -o-linear-gradient(rgba(20, 20, 20, 1), rgba(20, 20, 20, .9)), url('assets/blurycode.jpg');
-    background: linear-gradient(rgba(20, 20, 20, 1), rgba(20, 20, 20, .9)), url('assets/blurycode.jpg');
+    background:  linear-gradient(rgba(20, 20, 20, 1), rgba(20, 20, 20, .9)), url('assets/blurycode.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -201,5 +201,6 @@ span.name {
 }
 
 .pointer {
-    margin-top: 20px;
+    margin-top: 50px;
 }
+
