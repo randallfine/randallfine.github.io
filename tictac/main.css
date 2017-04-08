@@ -1,0 +1,146 @@
+    body {
+        background-color: cadetblue;
+        color: navajowhite;
+    }
+    
+    body,
+    html {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    
+    table {
+        visibility: hidden;
+        margin-left: 25%;
+        display: flex;
+        width: 50%;
+        height: 70%;
+        flex-direction: column;
+    }
+    
+    tbody {
+        display: flex;
+        widows: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+    
+    tr {
+        flex: 1 1;
+        width: 100%;
+        display: flex;
+    }
+    
+    td {
+        display: flex;
+        flex: 1 1 100%;
+        align-items: center;
+        justify-content: center;
+        color: darkorange;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 8rem;
+        font-weight: bold;
+    }
+    
+    td>* {
+        flex: 1 1;
+    }
+    
+    .turn {
+        display: flex;
+        margin: auto;
+    }
+    
+    .turn>h1 {
+        margin: auto;
+    }
+    
+    .one {
+        color: darkblue;
+    }
+    
+    .two {
+        color: red;
+    }
+    
+    .showWin {
+        color: darkblue;
+    }
+    
+    .top,
+    .middle {
+        border-bottom: 5px groove whitesmoke;
+    }
+    
+    .mid {
+        border-left: 5px groove whitesmoke;
+        border-right: 5px groove whitesmoke;
+    }
+    
+    .header {
+        display: flex;
+        width: 30%;
+        flex-flow: row nowrap;
+        justify-content: center;
+        margin: auto;
+    }
+    
+    .header h1 {
+        font-family: 'Oswald', sans-serif;
+        flex: 0 1 5em;
+        font-size: 3em;
+    }
+    
+    .message,
+    .choose,
+    .player {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        text-align: center;
+        position: absolute;
+        z-index: 999;
+        top: 5%;
+        right: 0%;
+        left: 0%;
+        bottom: 0;
+        width: 60%;
+        height: 75%;
+        margin: auto;
+        visibility: hidden;
+        font-size: 2em;
+    }
+    
+    .btn-group {
+        margin: auto;
+        display: flex;
+        align-self: flex-end;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .alert {
+        padding: 6px 14px;
+        margin: 0px;
+    }
+    
+    .success {
+        margin-right: 5%;
+    }
+    
+    .choose {
+        visibility: visible;
+    }
+    
+    .scoreboard {
+        float: left;
+        text-align: center;
+        background-color: inherit;
+        width: 15%;
+        font-size: 1.5em;
+    }
