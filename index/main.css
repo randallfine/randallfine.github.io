@@ -1,193 +1,35 @@
-body {
-    font-family: "Lato, Helvetica Neue", Helvetica, ArialArial, Helvetica, sans-serif;
-    overflow-x: hidden;
-}
-
-.main {
-    position: absolute;
-    padding: 0;
-    height: 100%;
-    min-height: 100%;
-    width: 100%;
-    background: -webkit-linear-gradient(rgba(20, 20, 20, 1), rgba(20, 20, 20, .9)), url('assets/blurycode.jpg');
-    background: -o-linear-gradient(rgba(20, 20, 20, 1), rgba(20, 20, 20, .9)), url('assets/blurycode.jpg');
-    background: linear-gradient(rgba(20, 20, 20, 1), rgba(20, 20, 20, .9)), url('assets/blurycode.jpg');
-    background-size: cover;
-    background-position: center right;
-    background-repeat: no-repeat;
-}
-
-.panels {
-    padding: 20px;
-    position: relative;
-    height: 100%;
-    min-height: 100%;
-    width: 100%;
-    z-index: 1000;
-    /*margin-top: 10px;*/
-}
-
-.splash {
-    position: fixed;
-    top: 0;
-    z-index: -99;
-    background: url("assets/screens.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.projects {
-    /*color: ghostwhite;*/
-    margin-top: 100%;
-    padding: 20px;
-    /*background: url("assets/qbert.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;*/
-    text-align: center;
-}
-
-.projects2 {
-    padding: 20px;
-    /*background: url("assets/worktable.jpg");*/
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    text-align: center;
-}
-
-.projects3 {
-    padding: 20px;
-    /*background: url("assets/worktable2.jpg");*/
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    text-align: center;
-}
-
-.about {
-    text-align: center
-}
-
-.me {
-    width: 100px;
-}
-
+body{font-family:"Lato, Helvetica Neue", Helvetica, ArialArial, Helvetica, sans-serif;overflow-x:hidden;}
+.main{position:absolute;padding:0;height:100%;min-height:100%;width:100%;background:-webkit-linear-gradient(rgba(20, 20, 20, 1), rgba(20, 20, 20, .9)), url('assets/blurycode.jpg');background:-o-linear-gradient(rgba(20, 20, 20, 1), rgba(20, 20, 20, .9)), url('assets/blurycode.jpg');background:linear-gradient(rgba(20, 20, 20, 1), rgba(20, 20, 20, .9)), url('assets/blurycode.jpg');background-size:cover;background-position:center right;background-repeat:no-repeat;}
+.panels{padding:20px;position:relative;height:100%;min-height:100%;width:100%;z-index:1000;}
+.splash{position:fixed;top:0;z-index:-99;background:url("assets/screens.jpg");background-size:cover;background-position:center;background-repeat:no-repeat;}
+.projects{margin-top:100%;padding:20px;text-align:center;}
+.projects2{padding:20px;background-size:cover;background-position:center;background-repeat:no-repeat;text-align:center;}
+.projects3{padding:20px;background-size:cover;background-position:center;background-repeat:no-repeat;text-align:center;}
+.about{text-align:center}
+.me{width:100px;}
 .welcome,
 .my,
-.here {
-    margin: auto;
-    text-align: center;
-    /*display: none;*/
-}
-
-.blue {
-    color: cornflowerblue;
-}
-
-.white {
-    color: white;
-}
-
+.here{margin:auto;text-align:center;}
+.blue{color:cornflowerblue;}
+.white{color:white;}
 h1,
-.blue {
-    font-size: 45px;
-}
-
-.top {
-    margin-top: 50px;
-}
-
-.pointer i {
-    margin: 30px auto;
-    text-align: center;
-    font-size: 50px;
-}
-
-.buttons {
-    margin: 20px auto;
-    text-align: center;
-}
-
-.btn-circle {
-    width: 40px;
-    height: 40px;
-    text-align: center;
-    padding: 6px 0;
-    font-size: 24px;
-    line-height: 1;
-    border-radius: 20px;
-}
-
-.text {
-    background: ghostwhite;
-}
-
-.link:hover,
- :visited,
- :active,
- :link {
-    color: inherit;
-}
-
-.logos {
-    text-align: center;
-}
-
-.logos>* {
-    margin-left: 10px;
-}
-
-.html5 {
-    width: 55px;
-}
-
-.css3 {
-    width: 40px;
-}
-
-.js {
-    width: 45px;
-    margin-top: 5px;
-}
-
-.node {
-    width: 45px;
-}
-
-.meteor {
-    width: 70px;
-    margin-right: 10px;
-}
-
-footer {
-    text-align: center;
-    background: #2c3e50;
-}
-
-.glyphs .fa:nth-child(2n-1) {
-    color: white;
-    font-size: 2em;
-    margin-right: 1%;
-}
-
-.glyphs .fa:nth-child(2n) {
-    color: white;
-    font-size: 1em;
-    margin-right: 1%;
-}
-
-span .fa {
-    font-size: 1em;
-    font-weight: bold;
-}
-
-.sig {
-    color: white;
-    float: left;
-}
-
-.name {
-    font-family: cursive;
-}
+.blue{font-size:45px;}
+.top{margin-top:50px;}
+.pointer i{margin:30px auto;text-align:center;font-size:50px;}
+.buttons{margin:20px auto;text-align:center;}
+.btn-circle{width:40px;height:40px;text-align:center;padding:6px 0;font-size:24px;line-height:1;border-radius:20px;}
+.text{background:ghostwhite;}
+.link:hover,:visited,:active,:link{color:inherit;}
+.logos{text-align:center;}
+.logos>*{margin-left:10px;}
+.html5{width:55px;}
+.css3{width:40px;}
+.js{width:45px;margin-top:5px;}
+.node{width:45px;}
+.meteor{width:70px;margin-right:10px;}
+footer{text-align:center;background:#2c3e50;}
+.glyphs .fa:nth-child(2n-1){color:white;font-size:2em;margin-right:1%;}
+.glyphs .fa:nth-child(2n){color:white;font-size:1em;margin-right:1%;}
+span .fa{font-size:1em;font-weight:bold;}
+.sig{color:white;float:left;}
+.name{font-family:cursive;}
